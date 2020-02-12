@@ -1,0 +1,155 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 90px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+   
+}
+.parallax{
+    /* The image used */
+    background: url("events/Relaxed-All-White-Spanish-Beach-Wedding-With-Seriously-Glamorous-Bridal-Beauty-Style-Sara-Lobla-Photography-11-1140x761.jpg") no-repeat;
+    /* Set a specific height */
+    min-height: 700px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.oneparallax{
+    height: 300px;
+    background-color:lightgoldenrodyellow;
+    background: transparent;
+    
+}
+#onparallaxpara{
+    margin-left: 350px;
+    padding-top: 120px;
+    font-size:20px;
+    text-align: center;
+    width: 475px;
+
+}
+@media only screen and (max-width:900px){
+    #onparallaxpara{
+        font-size: 1.5rem;
+        margin-left: 200px;
+    }
+}
+@media only screen and (max-width:600px){
+    #onparallaxpara{
+        font-size: 0.8rem;
+        margin-left: 100px;
+    }
+}
+#inparallax{
+    color:mediumvioletred;
+    font-family: "Dancing Script";
+    position: absolute;
+    top: 100px;
+    left: 15%;
+}
+
+#logo{
+    position: absolute;
+    top: 50px;
+    left: 45%;
+}
+h1:hover{
+    /* color: white; */
+    transform: scale(1.3);
+    transition: 1s;
+    /* text-align: center; */
+}
+#parallax2{
+    /* The image used */
+    background: url("events/11.jpeg") no-repeat;
+    /* Set a specific height */
+    min-height: 600px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax3{
+    /* The image used */
+    background: url("events/15.jpeg") no-repeat;
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+    padding-bottom: 20px; 
+    
+    padding-top: 10px;
+}
+
+/****************************************** Footer *************************************************/
+
+.content-info{
+    height: 300px;
+    background: #000a12;
+    text-align: center;
+    font-family: "Bree Serif";
+    color: white;
+    /* margin-bottom: 1%; */
+}
+.footer_first{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.footer_second a{
+    color: gray;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    height: 10px;
+    width: 7px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    color: white;
+}
+
+.fa-instagram{
+    color: white;
+}
+
+.fa-linkedin{
+    color: white;
+}
+
+/*Integration*/
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.active{
+    font-weight: 800;
+}
+
+/*Integration Ends Here*/
