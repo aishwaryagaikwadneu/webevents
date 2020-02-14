@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <link rel="stylesheet" href="LandingPage.css">
+    <!-- <script src="fontawesome-all.min.js"></script>
+    <script src="fa-solid.min.js"></script>
+    <script src="fontawesome.min.js"></script> -->
 </head>
 <body>
     <div class="container">
@@ -24,33 +27,56 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"><i class="fa fa-home"></i>Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#"><i class="fa fa-th"></i>Gallery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Plan your Event</a>
+                <a class="nav-link" href="#"><i class="fa fa-calendar"></i>Plan your Event</a>
               </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Decor</a>
+              <a class="nav-link" href="#"><i class="fa fa-pagelines"></i>Decor</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">AboutUS</a>
+                <a class="nav-link" href="#"><i class="fa fa-tags"></i>AboutUS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./login.html">Login</a>
+                <a class="nav-link" href="#" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./signup.html">Sign Up</a>
-              </li>
+            
           </ul>
         </div>
       </nav>
     </div>
    
                 
-    
+    <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="#">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
     <!-- ########################################################################################################### -->
     <div class="container">
     <div class="parallax">
@@ -166,7 +192,7 @@
             <div>
                 Follow us on
             </div>
-            <div class="follow">
+            <div>
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-linkedin"></a>
