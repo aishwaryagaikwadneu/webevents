@@ -115,7 +115,9 @@ h1:hover{
 .footer_second a{
     color: gray;
 }
-
+.follow a{
+    text-decoration: none;
+}
 .fa{
     padding: 20px;
     font-size: 15px;
