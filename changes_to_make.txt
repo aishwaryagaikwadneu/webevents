@@ -1,0 +1,6 @@
+1.design a good navbar using css
+2.Get high quality images
+3.In footer anchor tags are not styled well
+4.The site should occupy whole width.
+5.Under the icons lines are appearing
+ 
